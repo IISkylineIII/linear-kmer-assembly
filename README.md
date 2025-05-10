@@ -23,24 +23,22 @@ kmers = [
 linear_string = kmers[0] + ''.join(kmer[3] for kmer in kmers[1:])
 
 print(linear_string)
+```
 
-Example Output
+### Example Output
 AAATGCCCGCACACATACCATCCAGCCAAGCTCAATCTCGCTCACG
 (Note: Output will vary based on the order of the kmers.)
 
-Requirements
+### Requirements
 Python 3.6 or higher
-
 No external libraries are needed.
 
-Applications
+### Applications
 Educational illustration of k-mer-based sequence assembly
-
 Pre-step for building de Bruijn graphs
-
 Basic string manipulation for bioinformatics learners
 
-License
+### License
 This project is released under the MIT License.
 
 
