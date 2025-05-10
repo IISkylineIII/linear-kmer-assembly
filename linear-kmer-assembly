@@ -1,0 +1,10 @@
+kmers = [
+    "AAAT", "AATG", "ACCC", "ACGC", "ATAC", "ATCA", "ATGC",
+    "CAAA", "CACC", "CATA", "CATC", "CCAG", "CCCA", "CGCT",
+    "CTCA", "GCAT", "GCTC", "TACG", "TCAC", "TCAT", "TGCA"
+]
+
+# Combine the 4-mers to form a linear string
+linear_string = kmers[0] + ''.join(kmer[3] for kmer in kmers[1:])
+
+print(linear_string)
